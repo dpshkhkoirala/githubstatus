@@ -2,27 +2,36 @@
 
 <h2 align="center">📊 GitHub Stats</h2>
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin: 2rem 0;">
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 24px; margin: 2rem 0;">
   <!-- Overview -->
-  <div style="flex: 1; min-width: 320px; max-width: 495px; text-align: center;">
+  <div style="flex: 1 1 480px; max-width: 520px; text-align: center;">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/overview.svg">
-      <img alt="GitHub Stats Overview" src="https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/overview.svg" style="width: 100%; height: auto; border-radius: 10px;" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/overview.svg">
+      <img 
+        alt="GitHub Stats Overview" 
+        src="https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/overview.svg" 
+        style="width: 100%; height: auto; border-radius: 8px;"
+      />
     </picture>
   </div>
 
   <!-- Top Languages -->
-  <div style="flex: 1; min-width: 320px; max-width: 495px; text-align: center;">
+  <div style="flex: 1 1 480px; max-width: 520px; text-align: center;">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/languages.svg">
-      <img alt="Top Languages" src="https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/languages.svg" style="width: 100%; height: auto; border-radius: 10px;" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/languages.svg">
+      <img 
+        alt="Top Languages" 
+        src="https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/languages.svg" 
+        style="width: 100%; height: auto; border-radius: 8px;"
+      />
     </picture>
   </div>
 </div>
 
-<p align="center"><small>Stats auto-update via GitHub Actions • Fully adapts to your GitHub light/dark theme</small></p>
+<p align="center"><small>Stats auto-update via GitHub Actions • Adapts to light/dark theme (may show light variant until SVGs are updated for prefers-color-scheme)</small></p>
 
-*Stats are auto-generated and update periodically via GitHub Actions.*
 
 Generate visualizations of GitHub user and repository statistics with GitHub
 Actions. Visualizations can include data for both private repositories, and for
