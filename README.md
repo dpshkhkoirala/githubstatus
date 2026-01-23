@@ -2,24 +2,25 @@
 
 <h2 align="center">📊 GitHub Stats</h2>
 
-<table align="center">
-  <tr>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/overview.svg">
-        <img alt="Overview" src="https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/overview.svg" width="495" />
-      </picture>
-    </td>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/languages.svg">
-        <img alt="Top Languages" src="https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/languages.svg" width="495" />
-      </picture>
-    </td>
-  </tr>
-</table>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin: 2rem 0;">
+  <!-- Overview -->
+  <div style="flex: 1; min-width: 320px; max-width: 495px; text-align: center;">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/overview.svg">
+      <img alt="GitHub Stats Overview" src="https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/overview.svg" style="width: 100%; height: auto; border-radius: 10px;" />
+    </picture>
+  </div>
 
-<p align="center"><small>Auto-updating stats • Theme adaptive</small></p>
+  <!-- Top Languages -->
+  <div style="flex: 1; min-width: 320px; max-width: 495px; text-align: center;">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/languages.svg">
+      <img alt="Top Languages" src="https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/languages.svg" style="width: 100%; height: auto; border-radius: 10px;" />
+    </picture>
+  </div>
+</div>
+
+<p align="center"><small>Stats auto-update via GitHub Actions • Fully adapts to your GitHub light/dark theme</small></p>
 
 *Stats are auto-generated and update periodically via GitHub Actions.*
 
