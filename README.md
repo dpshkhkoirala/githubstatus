@@ -1,19 +1,20 @@
 # [GitHub Stats Visualization](https://github.com/jstrieb/github-stats)
 
-<!--
-https://github.community/t/support-theme-context-for-images-in-light-vs-dark-mode/147981/84
--->
-<a href="https://github.com/dpshkhkoirala/githubstats">
+## 📊 GitHub Stats
 
-<!-- Dark mode -->
-<img src="https://raw.githubusercontent.com/dpshkhkoirala/githubstats/master/generated/overview.svg#gh-dark-mode-only" />
-<img src="https://raw.githubusercontent.com/dpshkhkoirala/githubstats/master/generated/languages.svg#gh-dark-mode-only" />
+<!-- Overview -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/overview.svg">
+  <img src="https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/overview.svg" alt="GitHub overview stats" />
+</picture>
 
-<!-- Light mode -->
-<img src="https://raw.githubusercontent.com/dpshkhkoirala/githubstats/master/generated/overview.svg#gh-light-mode-only" />
-<img src="https://raw.githubusercontent.com/dpshkhkoirala/githubstats/master/generated/languages.svg#gh-light-mode-only" />
+<!-- Languages -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/languages.svg">
+  <img src="https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/languages.svg" alt="Top languages" />
+</picture>
 
-</a>
+*Stats auto-update every 24 hours via GitHub Actions*
 
 Generate visualizations of GitHub user and repository statistics with GitHub
 Actions. Visualizations can include data for both private repositories, and for
