@@ -1,14 +1,25 @@
 # [GitHub Stats Visualization](https://github.com/jstrieb/github-stats)
 
-## 📊 GitHub Stats
+<h2 align="center">📊 GitHub Stats</h2>
 
-<!-- Overview - shows correct version based on viewer theme -->
-[![GitHub Stats Overview](https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/overview.svg#gh-dark-mode-only)](https://github.com/dpshkhkoirala/githubstatus#gh-dark-mode-only)
-[![GitHub Stats Overview](https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/overview.svg#gh-light-mode-only)](https://github.com/dpshkhkoirala/githubstatus#gh-light-mode-only)
+<table align="center">
+  <tr>
+    <td>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/overview.svg">
+        <img alt="Overview" src="https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/overview.svg" width="495" />
+      </picture>
+    </td>
+    <td>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/languages.svg">
+        <img alt="Top Languages" src="https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/languages.svg" width="495" />
+      </picture>
+    </td>
+  </tr>
+</table>
 
-<!-- Top Languages -->
-[![Top Languages](https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/languages.svg#gh-dark-mode-only)](https://github.com/dpshkhkoirala/githubstatus#gh-dark-mode-only)
-[![Top Languages](https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/languages.svg#gh-light-mode-only)](https://github.com/dpshkhkoirala/githubstatus#gh-light-mode-only)
+<p align="center"><small>Auto-updating stats • Theme adaptive</small></p>
 
 *Stats are auto-generated and update periodically via GitHub Actions.*
 
