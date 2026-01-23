@@ -75,7 +75,7 @@
       color: rgb(88, 96, 105);
     }
 
-    /* Dark mode overrides – applied automatically by browser / GitHub when prefers-color-scheme: dark */
+    /* Dark mode — triggered by system/browser/OS theme (Windows dark mode, macOS dark, browser setting, GitHub dark, etc.) */
     @media (prefers-color-scheme: dark) {
       #background {
         fill: #0d1117;
