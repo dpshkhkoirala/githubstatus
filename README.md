@@ -2,19 +2,15 @@
 
 ## 📊 GitHub Stats
 
-<!-- Overview -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/overview.svg">
-  <img src="https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/overview.svg" alt="GitHub overview stats" />
-</picture>
+<!-- Overview - shows correct version based on viewer theme -->
+[![GitHub Stats Overview](https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/overview.svg#gh-dark-mode-only)](https://github.com/dpshkhkoirala/githubstatus#gh-dark-mode-only)
+[![GitHub Stats Overview](https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/overview.svg#gh-light-mode-only)](https://github.com/dpshkhkoirala/githubstatus#gh-light-mode-only)
 
-<!-- Languages -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/languages.svg">
-  <img src="https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/languages.svg" alt="Top languages" />
-</picture>
+<!-- Top Languages -->
+[![Top Languages](https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/languages.svg#gh-dark-mode-only)](https://github.com/dpshkhkoirala/githubstatus#gh-dark-mode-only)
+[![Top Languages](https://github.com/dpshkhkoirala/githubstatus/raw/master/generated/languages.svg#gh-light-mode-only)](https://github.com/dpshkhkoirala/githubstatus#gh-light-mode-only)
 
-*Stats auto-update every 24 hours via GitHub Actions*
+*Stats are auto-generated and update periodically via GitHub Actions.*
 
 Generate visualizations of GitHub user and repository statistics with GitHub
 Actions. Visualizations can include data for both private repositories, and for
