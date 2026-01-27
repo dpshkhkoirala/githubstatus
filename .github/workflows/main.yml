@@ -4,7 +4,8 @@ on:
   push:
     branches: [ master ]
   schedule:
-    - cron: "5 0 * * *"
+   
+   - cron: '0 0 * * *'     # Daily at midnight UTC
   workflow_dispatch:
 
 permissions:
@@ -40,6 +41,7 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_ACTOR: dpshkhkoirala
         EXCLUDED: ${{ secrets.EXCLUDED }}
         EXCLUDED_LANGS: ${{ secrets.EXCLUDED_LANGS }}
         EXCLUDE_FORKED_REPOS: true
